@@ -235,48 +235,50 @@ const Color = {
   },
 };
 
-const defalutColor = {
-  White: Color.WHITE,
-  Black: Color.BLACK,
-  Transparent: Color.TRANSPARENT,
-  DeltaGrey: Color.DELTAGREY[500],
-  DeltaBlue: Color.DELTABLUE[500],
-  Red: Color.RED[500],
-  Pink: Color.PINK[500],
-  Purple: Color.PURPLE[500],
-  DeepPruple: Color.DEEPPRUPLE[500],
-  Indigo: Color.INDIGO[500],
-  Blue: Color.BLUE[500],
-  LightBlue: Color.LIGHTBLUE[500],
-  Cyan: Color.CYAN[500],
-  Teal: Color.TEAL[500],
-  Green: Color.GREEN[500],
-  LightGreen: Color.LIGHTGREEN[500],
-  Lime: Color.LIME[500],
-  Yellow: Color.YELLOW[500],
-  Amber: Color.AMBER[500],
-  Orange: Color.ORANGE[500],
-  DeepOrange: Color.DEEPORANGE[500],
-  Brown: Color.BROWN[500],
-  BlueGrey: Color.BLUEGREY[500],
-  Grey: Color.GREY[500],
-};
-
-const { White, Black, Transparent, DeltaGrey, DeltaBlue, Red, Pink,
-  Purple, DeepPruple, Indigo, Blue, LightBlue, Cyan, Teal,
-  Green, LightGreen, Lime, Yellow, Amber, Orange, DeepOrange,
-  Brown, BlueGrey, Grey } = defalutColor;
-
 const { WHITE, BLACK, TRANSPARENT, DELTAGREY, DELTABLUE, RED, PINK,
   PURPLE, DEEPPRUPLE, INDIGO, BLUE, LIGHTBLUE, CYAN, TEAL,
   GREEN, LIGHTGREEN, LIME, YELLOW, AMBER, ORANGE, DEEPORANGE,
   BROWN, BLUEGREY, GREY } = Color;
 
-export default Object.assign({}, Color, defalutColor);
+const primaryColor = {
+  White: WHITE,
+  Black: BLACK,
+  Transparent: TRANSPARENT,
+  DeltaGrey: DELTAGREY[500],
+  DeltaBlue: DELTABLUE[500],
+  Red: RED[500],
+  Pink: PINK[500],
+  Purple: PURPLE[500],
+  DeepPruple: DEEPPRUPLE[500],
+  Indigo: INDIGO[500],
+  Blue: BLUE[500],
+  LightBlue: LIGHTBLUE[500],
+  Cyan: CYAN[500],
+  Teal: TEAL[500],
+  Green: GREEN[500],
+  LightGreen: LIGHTGREEN[500],
+  Lime: LIME[500],
+  Yellow: YELLOW[500],
+  Amber: AMBER[500],
+  Orange: ORANGE[500],
+  DeepOrange: DEEPORANGE[500],
+  Brown: BROWN[500],
+  BlueGrey: BLUEGREY[500],
+  Grey: GREY[500],
+};
+
+const { White, Black, Transparent, DeltaGrey, DeltaBlue, Red, Pink,
+  Purple, DeepPruple, Indigo, Blue, LightBlue, Cyan, Teal,
+  Green, LightGreen, Lime, Yellow, Amber, Orange, DeepOrange,
+  Brown, BlueGrey, Grey } = primaryColor;
+
+export default Object.assign({}, Color, primaryColor);
+
 export { WHITE, BLACK, TRANSPARENT, DELTAGREY, DELTABLUE, RED, PINK,
   PURPLE, DEEPPRUPLE, INDIGO, BLUE, LIGHTBLUE, CYAN, TEAL,
   GREEN, LIGHTGREEN, LIME, YELLOW, AMBER, ORANGE, DEEPORANGE,
   BROWN, BLUEGREY, GREY };
+
 export {
   White, Black, Transparent, DeltaGrey, DeltaBlue, Red, Pink,
   Purple, DeepPruple, Indigo, Blue, LightBlue, Cyan, Teal,
