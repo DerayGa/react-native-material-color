@@ -1,0 +1,23 @@
+{
+  "name": "react-native-material-color",
+  "version": "1.0.0",
+  "description": "material color patten",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerayGa/react-native-material-color.git"
+  },
+  "keywords": [
+    "material",
+    "color"
+  ],
+  "author": "Deray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DerayGa/react-native-material-color/issues"
+  },
+  "homepage": "https://github.com/DerayGa/react-native-material-color#readme"
+}
