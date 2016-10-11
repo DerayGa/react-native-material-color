@@ -3,7 +3,6 @@ const Color = {
   BLACK: '#000000',
   TRANSPARENT: 'transparent',
   DELTAGREY: {
-    50: '#efefef',
     100: '#cfcfcf',
     200: '#afafaf',
     300: '#949494',
@@ -15,7 +14,6 @@ const Color = {
     900: '#303030',
   },
   DELTABLUE: {
-    50: '#e6f3fc',
     100: '#b3dbf5',
     200: '#80c3ee',
     300: '#55afe8',
@@ -237,4 +235,51 @@ const Color = {
   },
 };
 
-export default Color;
+const defalutColor = {
+  White: Color.WHITE,
+  Black: Color.BLACK,
+  Transparent: Color.TRANSPARENT,
+  DeltaGrey: Color.DELTAGREY[500],
+  DeltaBlue: Color.DELTABLUE[500],
+  Red: Color.RED[500],
+  Pink: Color.PINK[500],
+  Purple: Color.PURPLE[500],
+  DeepPruple: Color.DEEPPRUPLE[500],
+  Indigo: Color.INDIGO[500],
+  Blue: Color.BLUE[500],
+  LightBlue: Color.LIGHTBLUE[500],
+  Cyan: Color.CYAN[500],
+  Teal: Color.TEAL[500],
+  Green: Color.GREEN[500],
+  LightGreen: Color.LIGHTGREEN[500],
+  Lime: Color.LIME[500],
+  Yellow: Color.YELLOW[500],
+  Amber: Color.AMBER[500],
+  Orange: Color.ORANGE[500],
+  DeepOrange: Color.DEEPORANGE[500],
+  Brown: Color.BROWN[500],
+  BlueGrey: Color.BLUEGREY[500],
+  Grey: Color.GREY[500],
+};
+
+const { White, Black, Transparent, DeltaGrey, DeltaBlue, Red, Pink,
+  Purple, DeepPruple, Indigo, Blue, LightBlue, Cyan, Teal,
+  Green, LightGreen, Lime, Yellow, Amber, Orange, DeepOrange,
+  Brown, BlueGrey, Grey } = defalutColor;
+
+const { WHITE, BLACK, TRANSPARENT, DELTAGREY, DELTABLUE, RED, PINK,
+  PURPLE, DEEPPRUPLE, INDIGO, BLUE, LIGHTBLUE, CYAN, TEAL,
+  GREEN, LIGHTGREEN, LIME, YELLOW, AMBER, ORANGE, DEEPORANGE,
+  BROWN, BLUEGREY, GREY } = Color;
+
+export default Object.assign({}, Color, defalutColor);
+export { WHITE, BLACK, TRANSPARENT, DELTAGREY, DELTABLUE, RED, PINK,
+  PURPLE, DEEPPRUPLE, INDIGO, BLUE, LIGHTBLUE, CYAN, TEAL,
+  GREEN, LIGHTGREEN, LIME, YELLOW, AMBER, ORANGE, DEEPORANGE,
+  BROWN, BLUEGREY, GREY };
+export {
+  White, Black, Transparent, DeltaGrey, DeltaBlue, Red, Pink,
+  Purple, DeepPruple, Indigo, Blue, LightBlue, Cyan, Teal,
+  Green, LightGreen, Lime, Yellow, Amber, Orange, DeepOrange,
+  Brown, BlueGrey, Grey,
+};
