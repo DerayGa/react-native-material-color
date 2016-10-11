@@ -279,9 +279,7 @@ export { WHITE, BLACK, TRANSPARENT, DELTAGREY, DELTABLUE, RED, PINK,
   GREEN, LIGHTGREEN, LIME, YELLOW, AMBER, ORANGE, DEEPORANGE,
   BROWN, BLUEGREY, GREY };
 
-export {
-  White, Black, Transparent, DeltaGrey, DeltaBlue, Red, Pink,
+export { White, Black, Transparent, DeltaGrey, DeltaBlue, Red, Pink,
   Purple, DeepPruple, Indigo, Blue, LightBlue, Cyan, Teal,
   Green, LightGreen, Lime, Yellow, Amber, Orange, DeepOrange,
-  Brown, BlueGrey, Grey,
-};
+  Brown, BlueGrey, Grey };
