@@ -19,7 +19,7 @@ import { BLUE, Blue } from 'react-native-material-color';
 <View style={{ backgroundColor: Blue }} />
 ```
 
-### Color List(Defalut 500) / Color Palette
+### Color List(Default 500) / Color Palette
 * White / WHITE
 * Black / BLACK
 * Transparent / TRANSPARENT
