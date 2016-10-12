@@ -1,6 +1,6 @@
 {
   "name": "react-native-material-color",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "material color palette",
   "main": "index.js",
   "scripts": {
