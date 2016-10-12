@@ -5,7 +5,7 @@
 ### npm install react-native-material-color --save
 
 ### Demo
-![color-palette](https://github.com/DerayGa/react-native-material-color/blob/master/demo.png)
+![color-palette](https://raw.githubusercontent.com/DerayGa/react-native-material-color/master/demo.png)
 
 ### Usage
 ```
