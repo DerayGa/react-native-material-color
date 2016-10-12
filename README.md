@@ -4,6 +4,9 @@
 
 ### npm install react-native-material-color --save
 
+### Demo
+![color-palette](https://github.com/DerayGa/react-native-material-color/blob/master/demo.png)
+
 ### Usage
 ```
 import Color from 'react-native-material-color';
