@@ -49,7 +49,8 @@ import { BLUE, Blue } from 'react-native-material-color';
 * Grey / GREY
 
 ### Color Palette
-Default 500, from 100 ~ 900
+* Default 500
+* 50, 100, 200, 300, 400, 500, 600, 700, 800, 900, A100, A200, A400, A700
 
 ### White / Black / Transparent
 Do not have Palette, Just Color.WHITE / Color.White / WHITE / White
