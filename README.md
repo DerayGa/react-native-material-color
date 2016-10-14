@@ -8,6 +8,7 @@
 ![color-palette](https://raw.githubusercontent.com/DerayGa/react-native-material-color/master/demo.png)
 
 ### Usage
+#### ES6
 ```
 import Color from 'react-native-material-color';
 
@@ -21,6 +22,25 @@ import { BLUE, Blue } from 'react-native-material-color';
 <View style={{ backgroundColor: BLUE[800] }} />
 <View style={{ backgroundColor: Blue }} />
 ```
+
+#### ES5 Support
+```
+var Color = require('react-native-material-color');
+
+<View style={{ backgroundColor: Color.RED[500] }} />
+<View style={{ backgroundColor: Color.Red }} />
+```
+
+```
+var { RED, Red } = require('react-native-material-color');
+
+<View style={{ backgroundColor: BLUE[800] }} />
+<View style={{ backgroundColor: Blue }} />
+```
+
+var { RED, Red } = require('react-native-material-color');
+console.log(Red);
+console.log(RED);
 
 ### Color List(Default 500) / Color Palette
 * White / WHITE
