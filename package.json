@@ -5,8 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "transpile": "gulp transpile",
-    "prepublish": "npm run transpile",
-    "postpublish": "rm -rf lib"
+    "prepublish": "npm run transpile"
   },
   "repository": {
     "type": "git",
