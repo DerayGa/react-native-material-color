@@ -27,20 +27,8 @@ import { BLUE, Blue } from 'react-native-material-color';
 ```
 var Color = require('react-native-material-color');
 
-<View style={{ backgroundColor: Color.RED[500] }} />
-<View style={{ backgroundColor: Color.Red }} />
-```
-
-```
 var { RED, Red } = require('react-native-material-color');
-
-<View style={{ backgroundColor: BLUE[800] }} />
-<View style={{ backgroundColor: Blue }} />
 ```
-
-var { RED, Red } = require('react-native-material-color');
-console.log(Red);
-console.log(RED);
 
 ### Color List(Default 500) / Color Palette
 * White / WHITE
