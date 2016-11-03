@@ -2,6 +2,8 @@
 
 [Google Color Palette](https://material.google.com/style/color.html#color-color-palette)
 
+[Material Color Generator](http://mcg.mbitson.com/)
+
 ### npm install react-native-material-color --save
 
 ### Demo

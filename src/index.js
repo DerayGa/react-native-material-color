@@ -34,6 +34,38 @@ const Color = {
     A400: '#009afb',
     A700: '#00619f',
   },
+  DELTAORANGE: {
+    50: '#FFFDFA',
+    100: '#FFDAAE',
+    200: '#FFC076',
+    300: '#FF9F2E',
+    400: '#FF9110',
+    500: '#F08200',
+    600: '#D17100',
+    700: '#B36100',
+    800: '#945000',
+    900: '#764000',
+    A100: '#FFFDFA',
+    A200: '#FFDAAE',
+    A400: '#FF9110',
+    A700: '#B36100',
+  },
+  DELTAGREEN: {
+    50: '#C5F8CD',
+    100: '#81EF91',
+    200: '#50E965',
+    300: '#1BD636',
+    400: '#17BB2F',
+    500: '#14A028',
+    600: '#118521',
+    700: '#0D6A1A',
+    800: '#0A4E14',
+    900: '#06330D',
+    A100: '#C5F8CD',
+    A200: '#81EF91',
+    A400: '#17BB2F',
+    A700: '#0D6A1A',
+  },
   RED: {
     50: 'ffebee',
     100: '#ffcdd2',
@@ -340,8 +372,8 @@ const Color = {
   },
 };
 
-const { WHITE, BLACK, TRANSPARENT, DELTAGREY, DELTABLUE, RED, PINK,
-  PURPLE, DEEPPRUPLE, INDIGO, BLUE, LIGHTBLUE, CYAN, TEAL,
+const { WHITE, BLACK, TRANSPARENT, DELTAGREY, DELTABLUE, DELTAORANGE, DELTAGREEN,
+  RED, PINK, PURPLE, DEEPPRUPLE, INDIGO, BLUE, LIGHTBLUE, CYAN, TEAL,
   GREEN, LIGHTGREEN, LIME, YELLOW, AMBER, ORANGE, DEEPORANGE,
   BROWN, BLUEGREY, GREY } = Color;
 
@@ -352,6 +384,8 @@ const primaryColor = {
   Transparent: TRANSPARENT,
   DeltaGrey: DELTAGREY[primary],
   DeltaBlue: DELTABLUE[primary],
+  DeltaOrange: DELTAORANGE[primary],
+  DeltaGreen: DELTAGREEN[primary],
   Red: RED[primary],
   Pink: PINK[primary],
   Purple: PURPLE[primary],
@@ -373,19 +407,19 @@ const primaryColor = {
   Grey: GREY[primary],
 };
 
-const { White, Black, Transparent, DeltaGrey, DeltaBlue, Red, Pink,
-  Purple, DeepPruple, Indigo, Blue, LightBlue, Cyan, Teal,
+const { White, Black, Transparent, DeltaGrey, DeltaBlue, DeltaOrange, DeltaGreen,
+  Red, Pink, Purple, DeepPruple, Indigo, Blue, LightBlue, Cyan, Teal,
   Green, LightGreen, Lime, Yellow, Amber, Orange, DeepOrange,
   Brown, BlueGrey, Grey } = primaryColor;
 
 export default Object.assign({}, Color, primaryColor);
 
-export { WHITE, BLACK, TRANSPARENT, DELTAGREY, DELTABLUE, RED, PINK,
-  PURPLE, DEEPPRUPLE, INDIGO, BLUE, LIGHTBLUE, CYAN, TEAL,
+export { WHITE, BLACK, TRANSPARENT, DELTAGREY, DELTABLUE, DELTAORANGE, DELTAGREEN,
+  RED, PINK, PURPLE, DEEPPRUPLE, INDIGO, BLUE, LIGHTBLUE, CYAN, TEAL,
   GREEN, LIGHTGREEN, LIME, YELLOW, AMBER, ORANGE, DEEPORANGE,
   BROWN, BLUEGREY, GREY };
 
-export { White, Black, Transparent, DeltaGrey, DeltaBlue, Red, Pink,
-  Purple, DeepPruple, Indigo, Blue, LightBlue, Cyan, Teal,
+export { White, Black, Transparent, DeltaGrey, DeltaBlue, DeltaOrange, DeltaGreen,
+  Red, Pink, Purple, DeepPruple, Indigo, Blue, LightBlue, Cyan, Teal,
   Green, LightGreen, Lime, Yellow, Amber, Orange, DeepOrange,
   Brown, BlueGrey, Grey };
