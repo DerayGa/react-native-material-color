@@ -67,7 +67,7 @@ const Color = {
     A700: '#0D6A1A',
   },
   RED: {
-    50: 'ffebee',
+    50: '#ffebee',
     100: '#ffcdd2',
     200: '#ef9a9a',
     300: '#e57373',
